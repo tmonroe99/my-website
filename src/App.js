@@ -8,6 +8,7 @@ function App() {
   return (
 
     <div className="App" >
+      <h1 className="header">TAYLOR YOUNKINS</h1>
       <NavBar></NavBar>
       {/* <header className="App-header">
       hi
