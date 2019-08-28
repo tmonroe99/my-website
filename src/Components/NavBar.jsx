@@ -6,6 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import AboutMe from './AboutMe';
 import Resume from './Resume';
+import Portfolio from './Portfolio';
+
 
 const StyledTabs = withStyles({
   indicator: {
@@ -101,7 +103,7 @@ export default function CustomizedTabs() {
             <Resume/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Portfolio 
+        <Portfolio/> 
       </TabPanel>
       <TabPanel value={value} index={3}>
       Commissions 
