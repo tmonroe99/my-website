@@ -71,7 +71,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
   },
   demo2: {
-    backgroundColor: '#73123f',
+    backgroundColor: '#f55b89',
   },
 }));
 

@@ -1,7 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import { Grid, Card, CardActions, CardMedia, Typography, CardContent } from '@material-ui/core';
+import { Box, FlexBox, Grid, Card, CardActions, CardMedia, Typography, CardContent, Container } from '@material-ui/core';
+import ReactPlayer from 'react-player'
+import { Component } from 'react';
 
 
 const useStyles = makeStyles(theme => ({
@@ -27,7 +29,7 @@ const useStyles = makeStyles(theme => ({
       pos: {
         marginBottom: 12,
       },
-  }));
+  }))
 
 
 export default function Portfolio() {
@@ -35,25 +37,18 @@ export default function Portfolio() {
     const bull = <span className={classes.bullet}>•</span>;
 
     return (
-      <div className={classes.root}>
-        <Grid container spacing={3}>
-          <Grid item xs={6}>
-            {/* <Paper className={classes.paper}>xs=6</Paper> */}
-            <Card  className={classes.card}>
-                <Typography> heyyy </Typography>
-             </Card>
-          </Grid>
-          <Grid item xs={6}>
-            <Card>
-                <CardMedia
-                className={classes.media}
-                video="https://www.youtube.com/watch?v=YyCkSVVY0qo&feature=youtu.be"
-                title="Lucid Heart"
-                />
 
+         <Box display="grid">
+            <Card width="100" height="100">
+                <Typography> This is a video game trailer that I have been commissioned to make for Box Cat Games. </Typography>
+             </Card>
+            <Card width="100" height = "100">
+            <ReactPlayer url='https://www.youtube.com/watch?v=04sB-9AFprk&feature=youtu.be' playing />
             </Card>
-          </Grid>
-        </Grid>
-      </div>
+        </Box>
+
+
+
+
     );
   }
