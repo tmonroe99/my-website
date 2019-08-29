@@ -7,6 +7,8 @@ import Box from '@material-ui/core/Box';
 import AboutMe from './AboutMe';
 import Resume from './Resume';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Commissions from './Commissions';
 
 
 const StyledTabs = withStyles({
@@ -106,10 +108,10 @@ export default function CustomizedTabs() {
         <Portfolio/> 
       </TabPanel>
       <TabPanel value={value} index={3}>
-      Commissions 
+        <Commissions/> 
       </TabPanel>
       <TabPanel value={value} index={4}>
-      Contact 
+      <Contact/> 
       </TabPanel>
       </div>
     </div>

@@ -26,16 +26,11 @@ export default function AboutMe () {
             I've always been both a creative and technical person. 
             I've been programming, doing graphic design, and editing videos since middle school.
              Doing web development was something I always thought about doing, but I only recently 
-             overcame the fear and decided to dive into this project headfirst. I wanted a place to 
-             showcase these technical and creative skills that I enjoy cultivating.
+             gained experience which really had me draw another connection between my technical and creative skills. I wanted a place to 
+             showcase these technical and creative skills that I enjoy cultivating. I'm a very visual oriented person and I'm really excited to also
+             combined my After Effects, Photoshop, and Illustrator skills to create even more enticing design!
             </Container>
-            <h3>stats</h3>
-            <Container>
-                school: Purdue University
-                year: Junior
-                major: Cybersecurity
-                minor(s): Computer Science, Communication
-            </Container>
+
         </div>
     
     );

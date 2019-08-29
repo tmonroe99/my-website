@@ -1,0 +1,20 @@
+.grid-1 {
+    display: grid;
+    grid-template-columns: 640px 640px;
+    grid-template-rows: 640px 640px;
+  }
+
+.item-1 {
+    background-color: pink;
+}
+.item-2 {
+    background-color: purple;
+}
+
+.cardtest{
+    width: 300px;
+    height: 250px;
+    margin: 160px;
+    padding: 10px;
+    // transform: translate(-50%, -50%) 
+}

@@ -1,14 +1,16 @@
 import React from'react';
-import Container from '@material-ui/core/Container';
+import { Container, Typography } from '@material-ui/core';
 
 
 export default function Resume () {
     return (
         <Container>
-        school: Purdue University 
-        year: Junior
-        major: Cybersecurity
-        minor(s): Computer Science, Communication
+            <p line-break="strict">
+                    school: Purdue University  <br/>
+                    year: Junior <br/>
+                    major: Cybersecurity <br/>
+                    minor(s): Computer Science, Communication <br/>
+            </p>
         </Container>
     );
 }
