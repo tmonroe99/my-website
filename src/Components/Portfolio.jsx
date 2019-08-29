@@ -4,7 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import { Box, FlexBox, Grid, Card, CardActions, CardMedia, Typography, CardContent, Container } from '@material-ui/core';
 import ReactPlayer from 'react-player'
 import { Component } from 'react';
-import styles from './portfolio.scss';
+import styles from './styling/portfolio.scss';
 
 
 const useStyles = makeStyles(theme => ({
@@ -59,15 +59,26 @@ export default function Portfolio() {
           </div>
           <div class="item-2">
             <Card className="cardtest">
-              {/* <Paper> */}
-            This is an album crossfade I was commissioned to make for Lollia's Vocaloid cover album. 
-            <br/> March 2019 
-                                <br/>Program: Adobe After Effects 
-              {/* </Paper> */}
+            This is an album crossfade I was commissioned to make for Lollia's Vocaloid cover album. <br/>
+             March 2019 <br/>
+            Program: Adobe After Effects 
             </Card>
           </div>
-          <div class="item-3">3</div>
-          <div class="item-4">4</div>
+
+          <div class="item-4">
+          <Card>
+              <Paper>
+            <ReactPlayer url='https://vimeo.com/273628224' playing />
+            </Paper>
+            </Card>
+          </div>
+          <div class="item-3">
+          <Card className="cardtest">
+            This is an album crossfade I was commissioned to make for Lollia's Vocaloid cover album. <br/>
+             March 2019 <br/>
+            Program: Adobe After Effects 
+            </Card>
+          </div>
           <div class="item-5">5</div>
           <div class="item-6">6</div>
       </section>

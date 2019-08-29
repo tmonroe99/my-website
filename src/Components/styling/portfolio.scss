@@ -1,14 +1,15 @@
 .grid-1 {
     display: grid;
-    grid-template-columns: 640px 360px; //changes width of each column Ironically. 
-    grid-template-rows: 360px 360px; //changes height of each column
+    grid-template-columns: 640px 380px; //changes width of each column Ironically. 
+    grid-template-rows: 380px 380px; //changes height of each column
     align-content: center;
     max-width: 1000px;
     margin: auto;
+    padding: 20px;
   }
 
 .item-1 {
-    background-color: pink;
+    // background-color: pink;
 }
 .item-2 {
     // background-color: purple;

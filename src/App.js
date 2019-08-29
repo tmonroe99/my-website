@@ -14,7 +14,10 @@ function App() {
           <img src={myGifHeader} width="450"/>
         </div>
       {/* </h1> */}
-      <NavBar></NavBar>
+      <div className="center">
+        <NavBar/>
+      </div>
+
       {/* <header className="App-header">
       hi
       <Button variant="contained" color="primary">CLick me</Button>

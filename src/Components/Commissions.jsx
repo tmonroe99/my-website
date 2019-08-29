@@ -1,11 +1,12 @@
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
+import styles from './styling/commissions.scss';
 
 export default function Commissions(){
 
     return (
-        <p text-align="left">
-            Contact me directly for details.<br/>
+        <p className="text">
+            Contact me directly for details.<br/><br/>
             Small Commissions: Open <br/>
             - simplistic kinetic Typography<br/>
             - concise scope<br/>

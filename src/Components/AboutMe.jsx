@@ -4,7 +4,7 @@ import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import Styling from './aboutme.scss';
+import Styling from './styling/aboutme.scss';
 
 const useStyles = makeStyles(theme => ({
     root: {

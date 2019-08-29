@@ -15,6 +15,7 @@ const StyledTabs = withStyles({
   indicator: {
     display: 'flex',
     justifyContent: 'center',
+    // align-content: center;
     backgroundColor: 'transparent',
     '& > div': {
       maxWidth: 40,
