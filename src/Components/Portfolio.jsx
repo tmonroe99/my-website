@@ -61,7 +61,8 @@ export default function Portfolio() {
             <Card className="cardtest">
               {/* <Paper> */}
             This is an album crossfade I was commissioned to make for Lollia's Vocaloid cover album. 
-                                March 2019. Program: Adobe After Effects
+            <br/> March 2019 
+                                <br/>Program: Adobe After Effects 
               {/* </Paper> */}
             </Card>
           </div>

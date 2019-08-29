@@ -6,7 +6,7 @@ export default function Contact(){
     return (
         <Typography>
             Email: tayloryounkins@gmail.com <br/>
-            Cell: 1-410-456-1552
+            Cell: (1)-410-456-1552
         </Typography>
     );
 }

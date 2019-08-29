@@ -1,20 +1,23 @@
 .grid-1 {
     display: grid;
-    grid-template-columns: 640px 640px;
-    grid-template-rows: 640px 640px;
+    grid-template-columns: 640px 360px; //changes width of each column Ironically. 
+    grid-template-rows: 360px 360px; //changes height of each column
+    align-content: center;
+    max-width: 1000px;
+    margin: auto;
   }
 
 .item-1 {
     background-color: pink;
 }
 .item-2 {
-    background-color: purple;
+    // background-color: purple;
 }
 
 .cardtest{
     width: 300px;
     height: 250px;
-    margin: 160px;
+    margin: 20px;
     padding: 10px;
     // transform: translate(-50%, -50%) 
 }
