@@ -14,7 +14,7 @@ function App() {
           <img src={myGifHeader} width="450"/>
         </div>
       {/* </h1> */}
-      <div className="center">
+      <div className="centerNavBar">
         <NavBar/>
       </div>
 

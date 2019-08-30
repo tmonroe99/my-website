@@ -26,14 +26,12 @@
 .centerNavBar {
   align-items: center;
   justify-content: center !important;
-  margin: auto;
-  /* color: black; */
+  /* margin: 0px 0px 00px 200px; */
 }
 
 .header {
   height: 50 !important;
   width: 50 !important;
-  text-shadow: 2px 2px 4px #000000;
   /* max-width:50% !important; */
   padding: 50px;
   color: white;

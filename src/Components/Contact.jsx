@@ -1,12 +1,16 @@
-import Typography from '@material-ui/core/Typography';
+import { Typography, Card } from '@material-ui/core';
 import React from 'react';
+import styling from './styling/contact.scss';
 
 export default function Contact(){
 
     return (
-        <Typography>
+        <div>
+
+        <Card className="card">
             Email: tayloryounkins@gmail.com <br/>
             Cell: (1)410-456-1552
-        </Typography>
+        </Card>
+        </div>
     );
 }

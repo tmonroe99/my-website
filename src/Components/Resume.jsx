@@ -75,7 +75,7 @@ export default function Resume () {
                     <p className="bulletpoints">
                    - Created promotional and informational videos about the NASA Goddard Optimus Prime Spinoff Promotional and Research Challenge(OPSPARC) to emphasize the Technology Transfer office<br/>
                    - Collaborated and organized meetings with mentor to brainstorm ideas, then separated into groups to storyboard, script, and edit the videos<br/>
-                   - Created a video about GSFC’s contributions to SmallSats(Small Satellites) for the Strategic Partnership Office’s convention booth for the Small Satellites Conference in Logan, Utah<br/>
+                   - Created a video about GSFC’s contributions to SmallSats(Small Satellites) for the Strategic Partnership Office’s convention booth for the Small Satellites Conference in Logan, Utah
 
 
                     </p>
