@@ -39,15 +39,6 @@ export default function Portfolio() {
 
     return (
     <div>
-         <Box display="in-line">
-            {/* <Card width="100" height="100"> */}
-                {/* <Typography> This is a video game trailer that I have been commissioned to make for Box Cat Games. </Typography> */}
-             {/* </Card> */}
-            {/* <Card width="100" height = "100">
-            <ReactPlayer url='https://www.youtube.com/watch?v=04sB-9AFprk&feature=youtu.be' playing />
-             This is a video game trailer that I have been commissioned to make for Box Cat Games. 
-            </Card> */}
-        </Box>
 
         <section class="grid-1">
           <div class="item-1">
@@ -74,13 +65,13 @@ export default function Portfolio() {
           </div>
           <div class="item-3">
           <Card className="cardtest">
-            This is an album crossfade I was commissioned to make for Lollia's Vocaloid cover album. <br/>
-             March 2019 <br/>
+            Part of my role as a Student Assistant for Professor Harriger.<br/>
+             January - May 2018 <br/>
             Program: Adobe After Effects 
             </Card>
           </div>
-          <div class="item-5">5</div>
-          <div class="item-6">6</div>
+          <div class="item-5"></div>
+          <div class="item-6"></div>
       </section>
 
 
