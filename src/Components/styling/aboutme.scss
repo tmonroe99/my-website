@@ -1,6 +1,16 @@
 .text {
-    color : white;
+    // color : white; 
     font: "Chromatica";
     // font-family: "Chromatica";
     // text-shadow: 2px 2px 4px #000000;
+}
+.card{
+    width: 500px;
+    height: 600px;
+    margin: 20px;
+    padding: 50px;
+    // margin: auto;
+    // align-content: center;
+    // max-width: 640px;
+    // transform: translate(-50%, -50%) 
 }
