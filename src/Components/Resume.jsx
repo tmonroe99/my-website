@@ -15,8 +15,8 @@ export default function Resume () {
             School: Purdue University  <br/>
                     Year: Junior(3rd Year) - Graduating Spring 2021<br/>
                     Major: Cybersecurity <br/>
-                    Minor(s): Computer Science, Communication <br/>
-                    GPA: 3.83 <br/>
+                    Minors: Computer Science, Communication <br/>
+                    GPA: 3.83/4.00 <br/>
                     <img src={Purdue} width="50"></img>
             </Card>
             <h3>Work Experience</h3>
@@ -44,7 +44,7 @@ export default function Resume () {
                     June 2018 - August 2018 (Summer)<br/>
                     <p className="bulletpoints">
                     - Practiced simplifying advanced technical skills to different non-technical audiences in order to foster communication or understanding<br/>
-                    - Taught weeklong courses to students the fundamentals of programming, 3D modeling, and video  production in a classroom setting
+                    - Taught weeklong courses to students the fundamentals of programming, 3D modeling, and video  production in a classroom setting<br/>
 
                     </p>
                     <img src={iDTech} width="50"></img>
@@ -60,7 +60,8 @@ export default function Resume () {
                     <p className="bulletpoints">
                     - Assisted with organizing information systems and databases to keep track of potential candidates for TECHFIT<br/>
                     (Teaching Engineering Concepts to Harness Future Innovators and Technologists) program <br/>
-                    - Made a catchy video to help TECHFIT to renew NSF Foundation grant and gain funding and recognition from other members in the education field 
+                    - Made a catchy video to help TECHFIT to renew NSF Foundation grant and gain funding and recognition from other members in the education field <br/>
+                    <br/> See my portfolio for my work!<br/>
                     </p>
                     <img src={Purdue} width="50"></img>
                     </span>
@@ -73,9 +74,9 @@ export default function Resume () {
                     Intern <br/>
                     June - August 2016, 2017<br/>
                     <p className="bulletpoints">
-                   - Created promotional and informational videos about the NASA Goddard Optimus Prime Spinoff Promotional and Research Challenge(OPSPARC) to emphasize the Technology Transfer office<br/>
-                   - Collaborated and organized meetings with mentor to brainstorm ideas, then separated into groups to storyboard, script, and edit the videos<br/>
-                   - Created a video about GSFC’s contributions to SmallSats(Small Satellites) for the Strategic Partnership Office’s convention booth for the Small Satellites Conference in Logan, Utah
+                    - Created media to promote innovation and flow of NASA space technology to everyday life, known as spinoffs, initiated through the Technology Transfer Office<br/>
+                    - Created promotional and informational videos about the NASA Goddard Optimus Prime Spinoff Promotional and Research Challenge(OPSPARC) to encourage students to enter in the contest and create their own innovative spinoffs<br/>
+                    <br/>See my portfolio for some of my work! <br/>
 
 
                     </p>
@@ -92,8 +93,10 @@ export default function Resume () {
                                 Purdue University<br/>
                                 November 2018 - Present<br/>
                                 <p className="bulletpoints">
-                                - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice<br/>
-                                - Lead and organize Women in Technology events encouraging high school girls to enroll in the Purdue Polytechnic Institute and pursue STEM careers<br/>
+                                - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice to increase female retention in the Polytechnic Institute
+                                <br/>
+                                - Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events
+                                <br/>
                                 </p>
                                 </span>
                         </Card>
