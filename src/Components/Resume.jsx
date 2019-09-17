@@ -88,8 +88,8 @@ export default function Resume () {
                         <Card marginRight='110'>
                             <span>
                                 <br/>
-                                Purdue Polytechnic Institute - West Lafayette, IN<br/>
                                 Vice President, Women in Technology	<br/>
+                                Purdue University<br/>
                                 November 2018 - Present<br/>
                                 <p className="bulletpoints">
                                 - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice<br/>
@@ -101,13 +101,12 @@ export default function Resume () {
                 <Card>
                     <span>
                         <br/>
-                        Purdue Polytechnic Institute - West Lafayette, IN<br/>
-                        Student Ambassador<br/>
-                        February 2018 - Present<br/>
+                        Cybersecurity Representative<br/>
+                        Purdue University<br/>
+                        June 2019 - Present<br/>
                         <p className="bulletpoints">
-                        - Representative of the Purdue Polytechnic Institute to prospective students regarding enrollment and retention initiatives, while promoting organizational engagement within current student body
-                        <br/>
-                        - Visit highschools and speak to them about the Purdue Polytechnic Institute <br/>
+                        - Representative of the Cybersecurity students in Purdue’s Computer Information Technology department, promoting student body engagement, professional and academic development, and retention
+
                         <br/>
                         </p>
                         <img src={Purdue} width="50"></img>
@@ -117,12 +116,12 @@ export default function Resume () {
                 <Card>
                     <span>
                         <br/>
-                        Purdue Polytechnic Institute - West Lafayette, IN<br/>
-                        Vice President, Women in Technology	<br/>
-                        November 2018 - Present<br/>
+                        Student Ambassador<br/>
+                        Purdue Polytechnic Institute <br/>
+                        February 2018 - Present<br/>
                         <p className="bulletpoints">
-                        - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice<br/>
-                        - Lead and organize Women in Technology events encouraging high school girls to enroll in the Purdue Polytechnic Institute and pursue STEM careers<br/>
+                        - Representative of the Purdue Polytechnic Institute to prospective students regarding enrollment and retention initiatives, while promoting organizational engagement within current student body
+                        <br/>
                         </p>
                         </span>
                 </Card>
