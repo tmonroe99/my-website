@@ -8,15 +8,19 @@ export default function Commissions(){
     return (
         <div>
             <Card className="card">
-                <p className={styling.text}>
+            <h3>Commissions</h3>
+                <p className="text">
                 Contact me directly for details.<br/><br/>
                     Small Commissions: Open <br/>
                     - simplistic kinetic Typography<br/>
-                    - concise scope<br/>
-                    Large Commissions: Currently Unavailable (Taken)<br/>
+                    - small scope<br/>
+                    - simple motion graphics <br/>
+                    <br/>
+                    Large Commissions: Closed <br/>
                     - Trailers<br/>
                     - Heavy visual elements<br/>
                     - High production<br/>
+                    - Long timeline<br/>
                 </p>
             </Card>
         </div>

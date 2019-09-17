@@ -44,7 +44,7 @@ export default function Portfolio() {
           <div class="item-1">
             <Card>
               <Paper>
-            <ReactPlayer url='https://www.youtube.com/watch?v=49sLgfI6Xzk&feature=youtu.be' playing />
+            <ReactPlayer url='https://www.youtube.com/watch?v=49sLgfI6Xzk&feature=youtu.be' paused />
             </Paper>
             </Card>
           </div>
@@ -59,7 +59,7 @@ export default function Portfolio() {
           <div class="item-4">
           <Card>
               <Paper>
-            <ReactPlayer url='https://vimeo.com/273628224' playing />
+            <ReactPlayer url='https://vimeo.com/273628224' paused />
             </Paper>
             </Card>
           </div>
@@ -70,8 +70,21 @@ export default function Portfolio() {
             Program: Adobe After Effects 
             </Card>
           </div>
-          <div class="item-5"></div>
-          <div class="item-6"></div>
+          
+          <div class="item-5">
+          <Card>
+              <Paper>
+            <ReactPlayer url='https://vimeo.com/228564766' paused />
+            </Paper>
+            </Card>
+          </div>
+          <div class="item-6">
+          <Card className="cardtest">
+            OPSPARC Contest promotion explaining what NASA spinoffs are, targeted to K-12 students.<br/>
+            Summer 2017 <br/>
+            Program: Adobe After Effects 
+            </Card>
+          </div>
       </section>
 
 

@@ -4,13 +4,19 @@ import styling from './styling/contact.scss';
 
 export default function Contact(){
 
+    console.log(styling);
+
+
     return (
         <div>
+            <Card className="card">
 
-        <Card className="card">
-            Email: tayloryounkins@gmail.com <br/>
-            Cell: (1)410-456-1552
-        </Card>
+                <h3>Contact Information</h3>
+
+                Email: tayloryounkins@gmail.com <br/>
+                Cell: (1) 410-456-1552<br/>
+
+            </Card>
         </div>
     );
 }

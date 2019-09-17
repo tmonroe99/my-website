@@ -19,16 +19,15 @@ export default function AboutMe () {
     return (
         <div>
 
-            <Container className={styling.card}>
-              <Card className={styling.card}>
+            <Container>
+              <Card className="card">
               <h3>who am i?</h3>
-              <div className="card">
-              I've always been both a creative and technical person. 
-              I've been programming, doing graphic design, and editing videos since middle school.
-              Doing web development was something I always thought about doing, but I only recently 
-              gained experience which really had me draw another connection between my technical and creative skills. I wanted a place to 
-              showcase these technical and creative skills that I enjoy cultivating. I'm a very visual oriented person and I'm really excited to also
-              combined my After Effects, Photoshop, and Illustrator skills to create even more enticing design!
+              <div>
+                I've always been both a creative and technical person. 
+                I've been programming, doing graphic design, and making videos since middle school.
+                I'm excited that this website gets to show off my creative skills, technical skills, and give you
+                more insight to me as a person. My visual style is vibrant and full of energy just like my personality. 
+                This website is a holy ground for the intersection of many of my passions in life. 
               </div>
 
               </Card>
