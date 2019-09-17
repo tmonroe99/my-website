@@ -1,0 +1,41 @@
+.cardtest{
+    width: 800px;
+    height: 800px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bulletpoints {
+    text-align: left !important;
+    padding: 00px 00px 00px 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+  .container {
+    display: flex; /* or inline-flex */
+    padding: 30 !important;
+  margin: 30 !important;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  
+  justify-content: space-around;
+  }
+  .item {
+    order: 0; /* default is 0 */
+  }
