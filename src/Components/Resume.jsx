@@ -109,7 +109,7 @@ export default function Resume () {
                         June 2019 - Present<br/>
                         <p className="bulletpoints">
                         - Representative of the Cybersecurity students in Purdue’s Computer Information Technology department, promoting student body engagement, professional and academic development, and retention
-
+                        test
                         <br/>
                         </p>
                         <img src={Purdue} width="50"></img>
