@@ -1,5 +1,5 @@
 import React from'react';
-import { Box, FlexBox, Grid, Card, CardActions, CardMedia, Typography, CardContent, Container } from '@material-ui/core';
+import { Box, FlexBox, Grid, Card, CardActions, CardMedia, Typography, CardContent, Container, Link } from '@material-ui/core';
 import Purdue from './static/Purdue.png';
 import AmEx from './static/amex.png';
 import styling from './styling/resume.css';
@@ -96,6 +96,7 @@ export default function Resume () {
                                 - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice to increase female retention in the Polytechnic Institute
                                 <br/>
                                 - Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events
+                                <Link>http://purduewit.weebly.com/executive-board.html</Link>
                                 <br/>
                                 </p>
                                 </span>
