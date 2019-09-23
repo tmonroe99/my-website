@@ -17,6 +17,7 @@ export default function Commissions(){
                     - simple motion graphics <br/>
                     <br/>
                     Large Commissions: Closed <br/>
+                    Current Project: Lucid Heart Video Game Trailer<br/>
                     - Trailers<br/>
                     - Heavy visual elements<br/>
                     - High production<br/>

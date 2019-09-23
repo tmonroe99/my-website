@@ -77,8 +77,6 @@ export default function Resume () {
                     - Created media to promote innovation and flow of NASA space technology to everyday life, known as spinoffs, initiated through the Technology Transfer Office<br/>
                     - Created promotional and informational videos about the NASA Goddard Optimus Prime Spinoff Promotional and Research Challenge(OPSPARC) to encourage students to enter in the contest and create their own innovative spinoffs<br/>
                     <br/>See my portfolio for some of my work! <br/>
-
-
                     </p>
                     <img src={nasa} width="50"></img>
                     </span>
@@ -95,7 +93,7 @@ export default function Resume () {
                                 <p className="bulletpoints">
                                 - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice to increase female retention in the Polytechnic Institute
                                 <br/>
-                                - Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events
+                                - Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events <br/>
                                 <Link>http://purduewit.weebly.com/executive-board.html</Link>
                                 <br/>
                                 </p>
