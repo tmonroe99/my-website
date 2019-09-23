@@ -36,6 +36,11 @@
   
   justify-content: space-around;
   }
+
   .item {
     order: 0; /* default is 0 */
+  }
+  .cardpadding {
+    padding: 10px;
+    margin:10px;
   }

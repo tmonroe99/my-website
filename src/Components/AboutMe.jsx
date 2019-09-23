@@ -27,7 +27,6 @@ export default function AboutMe () {
                 I've been programming, doing graphic design, and making videos since middle school.
                 I'm excited that this website gets to show off my creative skills, technical skills, and give you
                 more insight to me as a person. My visual style is vibrant and full of energy just like my personality. 
-                This website is a holy ground for the intersection of many of my passions in life. 
               </div>
 
               </Card>

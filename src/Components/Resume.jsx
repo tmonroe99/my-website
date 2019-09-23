@@ -82,11 +82,11 @@ export default function Resume () {
                     </p>
                     <img src={nasa} width="50"></img>
                     </span>
-            </Card>
+            </Card >
             <h3>Student Leadership</h3>
             <h4>AKA, where I devote my heart and soul to when I'm offline.  </h4>
             <Container class="container">
-                        <Card marginRight='110'>
+                        <Card className="cardpadding">
                             <span>
                                 <br/>
                                 Vice President, Women in Technology	<br/>
@@ -101,7 +101,7 @@ export default function Resume () {
                                 </span>
                         </Card>
                 <h3> </h3>
-                <Card>
+                <Card className="cardpadding">
                     <span>
                         <br/>
                         Cybersecurity Representative<br/>
@@ -115,8 +115,7 @@ export default function Resume () {
                         <img src={Purdue} width="50"></img>
                         </span>
                 </Card>
-                <h3> </h3>
-                <Card>
+                <Card className="cardpadding">
                     <span>
                         <br/>
                         Student Ambassador<br/>
