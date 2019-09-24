@@ -1,11 +1,10 @@
-import { Typography, Card } from '@material-ui/core';
+import { Typography, Card, Icon, Link } from '@material-ui/core';
+// import { LinkedInIcon } from '@material-ui/icons';
+
 import React from 'react';
 import styling from './styling/contact.scss';
 
 export default function Contact(){
-
-    console.log(styling);
-
 
     return (
         <div>
@@ -13,8 +12,10 @@ export default function Contact(){
 
                 <h3>Contact Information</h3>
 
+
                 Email: tayloryounkins@gmail.com <br/>
-                Cell: (1) 410-456-1552<br/>
+                Cell: Email me<br/>
+                <Link href="https://www.linkedin.com/in/taylor-y-bbb281b9/">LinkedIn</Link>
 
             </Card>
         </div>

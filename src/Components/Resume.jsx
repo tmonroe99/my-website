@@ -5,6 +5,7 @@ import AmEx from './static/amex.png';
 import styling from './styling/resume.css';
 import iDTech from './static/idtechlogo.jpg';
 import nasa from './static/nasalogo.png';
+import Skills from './Skills.jsx';
 
 export default function Resume () {
     return (
@@ -19,6 +20,10 @@ export default function Resume () {
                     GPA: 3.83/4.00 <br/>
                     <img src={Purdue} width="50"></img>
             </Card>
+
+            <Skills></Skills>
+
+
             <h3>Work Experience</h3>
             <Card>
                 <span>
@@ -76,7 +81,7 @@ export default function Resume () {
                     <p className="bulletpoints">
                     - Created media to promote innovation and flow of NASA space technology to everyday life, known as spinoffs, initiated through the Technology Transfer Office<br/>
                     - Created promotional and informational videos about the NASA Goddard Optimus Prime Spinoff Promotional and Research Challenge(OPSPARC) to encourage students to enter in the contest and create their own innovative spinoffs<br/>
-                    <br/>See my portfolio for some of my work! <br/>
+                    <br/> See my portfolio for my work!<br/>
                     </p>
                     <img src={nasa} width="50"></img>
                     </span>

@@ -35,6 +35,7 @@ export default function AboutMe () {
               </Card>
             </Container>
         </div>
+        
     
     );
 }

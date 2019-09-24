@@ -49,9 +49,10 @@ export default function Portfolio() {
           </div>
           <div class="item-2">
           <Card className="cardtest">
-            OPSPARC Contest promotion explaining what NASA spinoffs are, targeted to K-12 students.<br/>
+            OPSPARC Contest promotion encouraging students to enter the contest and make their own innovative spinoffs.<br/>
+            Program: Adobe After Effects <br/>
             Summer 2017 <br/>
-            Program: Adobe After Effects 
+
             </Card>
           </div>
 
@@ -64,9 +65,9 @@ export default function Portfolio() {
           </div>
           <div class="item-2">
           <Card className="cardtest">
-            Part of my role as a Student Assistant for Professor Harriger.<br/>
-             January - May 2018 <br/>
-            Program: Adobe After Effects 
+            TECHFIT is a program funded by a National Science Foundation grant. This was included in my tasks as a Student Assistant.<br/>
+            Program: Adobe After Effects
+            January - May 2018 <br/> 
             </Card>
           </div>
 
@@ -80,14 +81,14 @@ export default function Portfolio() {
           </div>
           <div class="item-2">
             <Card className="cardtest">
-            Motion graphics music video for Lollia's cover of the Persona 5 opening. <br/>
+            Motion graphics music video for Lollia's cover of the Persona 5 opening. (Commission)<br/>
             Program: Adobe After Effects  <br/>
-            2018 
+            June 2018 
             </Card>
           </div>
 
           
-
+{/* 
           <div class="item-1">
               <Card>
                 <Paper>
@@ -101,7 +102,7 @@ export default function Portfolio() {
               Program: Adobe After Effects  <br/>
               ETA: end of 2019 <br/>
               </Card>
-            </div>
+            </div> */}
           
           <div class="item-1">
             <Card>
@@ -112,9 +113,10 @@ export default function Portfolio() {
           </div>
           <div class="item-2">
             <Card className="cardtest">
-            This is an album crossfade I was commissioned to make for Lollia's Vocaloid cover album. <br/>
+            Fun album highlights of Lollia's Vocaloid cover album. (Commission) <br/>
+            Program: Adobe After Effects <br/>
              March 2019 <br/>
-            Program: Adobe After Effects 
+
             </Card>
           </div>
 

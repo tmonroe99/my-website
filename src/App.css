@@ -23,6 +23,11 @@
 
 }
 
+.center{
+  align-items: center;
+  justify-content: center !important;
+}
+
 .centerNavBar {
   align-items: center;
   justify-content: center !important;
