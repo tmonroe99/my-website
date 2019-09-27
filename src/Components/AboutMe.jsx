@@ -25,7 +25,7 @@ export default function AboutMe () {
               <div>
                 Taylor • Columbia MD, USA • Purdue<br/>
                 <br/>
-                This is my website, where I am to culminate the creative and technical side of myself, and show off my multifaceted interests. 
+                This is my website, where I aim to culminate the creative and technical side of myself, and provide depth and agency to a variety of my projects. 
                 <br/> <br/>
                 My hobbies include: <br/>
                  making motion graphics videos • programming • ice skating • hanging out with friends • playing video games • volunteering • listening to music
