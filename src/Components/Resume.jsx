@@ -21,14 +21,35 @@ export default function Resume () {
                     <img src={Purdue} width="50"></img>
             </Card>
 
-            <Skills></Skills>
+            <Skills/>
 
+                <Grid container spacing={6} >
+                    <Grid item xs={9} >
+                        <Card>
+                            <span>
+                                <br/>
+                                American Express - Sunrise, FL <br/>
+                                Software Engineering Intern <br/>
+                                June 2019 - August 2019 (Summer)<br/>
+                                <p className="bulletpoints">
+                                - Created developer tools with React to speed up the development process, decrease time spent debugging, and allow <br/>
+                                production errors to be found more easily using a Scaled Agile Framework environment.<br/>
+                                - Created a role-based access table to allow developers and product owners to change access privileges of user groups<br/>
+                                - Version control with Git and Bitbucket, unit tested with Jest and Enzyme
+                                </p>
+                            </span>
+                        </Card>
+                    </Grid>      
+                    <Grid item xs={3} alignment="center" margin="auto" justifyContent="center">
+                        <img src={AmEx} width="150" ></img>
+                    </Grid>   
+                </Grid>
 
             <h3>Work Experience</h3>
             <Card>
                 <span>
                     <br/>
-            American Express - Sunrise, FL <br/>
+                    American Express - Sunrise, FL <br/>
                     Software Engineering Intern <br/>
                     June 2019 - August 2019 (Summer)<br/>
                     <p className="bulletpoints">
@@ -38,7 +59,7 @@ export default function Resume () {
                     - Version control with Git and Bitbucket, unit tested with Jest and Enzyme
                     </p>
                     <img src={AmEx} width="50"></img>
-                    </span>
+                </span>
             </Card>
             <h3> </h3>
             <Card>

@@ -23,12 +23,12 @@ export default function AboutMe () {
               <Card className="card">
               <h3>who am i?</h3>
               <div>
-                Taylor • Columbia MD, USA • Purdue<br/>
+                Taylor • Purdue • Columbia MD, USA<br/>
                 <br/>
-                This is my website, where I aim to culminate the creative and technical side of myself, and provide depth and agency to a variety of my projects. 
+                This is my website, where I aim to show off the creative and technical side of myself, and provide depth and agency to a variety of my projects. 
                 <br/> <br/>
                 My hobbies include: <br/>
-                 making motion graphics videos • programming • ice skating • hanging out with friends • playing video games • volunteering • listening to music
+                 making motion graphics and a variety of styled animated videos • programming • ice skating • hanging out with friends • playing video games • volunteering • listening to music • designing
                 <br/>
               </div>
 

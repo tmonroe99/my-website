@@ -5,6 +5,10 @@
     padding: 10px;
 }
 
+.color {
+  background-color: white;
+}
+
 .bulletpoints {
     text-align: left !important;
     padding: 00px 00px 00px 30px;
