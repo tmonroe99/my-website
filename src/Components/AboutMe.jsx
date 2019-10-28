@@ -28,7 +28,8 @@ export default function AboutMe () {
                 This is my website, where I aim to show off the creative and technical side of myself, and provide depth and agency to a variety of my projects. 
                 <br/> <br/>
                 My hobbies include: <br/>
-                 making motion graphics and a variety of styled animated videos • programming • ice skating • hanging out with friends • playing video games • volunteering • listening to music • designing
+                 making motion graphics and a variety of styled animated videos • programming • ice skating 
+                 • hanging out with friends • playing video games • volunteering • listening to music 
                 <br/>
               </div>
 

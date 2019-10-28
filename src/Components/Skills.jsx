@@ -56,7 +56,7 @@ export default function Skills(){
                     </Grid>
                     <Grid item xs={3}>
                         <Paper>
-                            <Typography> CSS</Typography> 
+                            <Typography> C#</Typography> 
                             <Rating value={2} readOnly></Rating>
                         </Paper>
                     </Grid>
