@@ -4,11 +4,12 @@ import { Typography, Card, Icon, Link } from '@material-ui/core';
 import React from 'react';
 import styling from './styling/contact.scss';
 
+
 export default function Contact(){
 
     return (
         <div>
-            <Card className="card">
+            <Card className="cardtest">
 
                 <h3>Contact Information</h3>
 

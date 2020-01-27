@@ -6,6 +6,7 @@ import styling from './styling/resume.css';
 import iDTech from './static/idtechlogo.jpg';
 import nasa from './static/nasalogo.png';
 import Skills from './Skills.jsx';
+import SkillsFlex from './SkillsFlex.jsx';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 export default function Resume () {
@@ -22,9 +23,7 @@ export default function Resume () {
                     <img src={Purdue} width="50"></img>
             </Card>
 
-            <Skills/>
-
-                           <h3/>
+            <SkillsFlex/>
             <h3>Work Experience</h3>
 
             <Timeline lineColor={'#ddd'}>   

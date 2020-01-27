@@ -9,19 +9,13 @@ function App() {
   return (
 
     <div className="App" >
-      {/* <h1 className="header"> */}
         <div className="header">
           <img src={myGifHeader} width="450"/>
         </div>
-      {/* </h1> */}
       <div className="centerNavBar">
         <NavBar/>
       </div>
 
-      {/* <header className="App-header">
-      hi
-      <Button variant="contained" color="primary">CLick me</Button>
-      </header> */}
     </div>
   );
 }

@@ -1,13 +1,21 @@
 .card{
     width: 300px;
-    height: 200px;
+    // height: 100px;
     margin: 20px;
     padding: 10px;
     margin: auto;
     // align-content: center;
-    max-width: 500px;
+    // max-width: 500px;
     // transform: translate(-50%, -50%) 
 }
 .text { 
     text-align: left !important;
 }   
+
+.cardtest{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    // transform: translate(-50%, -50%) 
+}

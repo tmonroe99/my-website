@@ -119,11 +119,7 @@ export default function Portfolio() {
 
             </Card>
           </div>
-
-
-
           
-
       </section>
       <h3>For more, visit my Vimeo: <Link>https://vimeo.com/tayloryounkins</Link> </h3>
       </div>
