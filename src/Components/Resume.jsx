@@ -11,6 +11,7 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 export default function Resume () {
     return (
+
         <Container>
             <h3>Education</h3>
             <Card>
@@ -119,7 +120,16 @@ export default function Resume () {
             </Timeline>
 
 
-            
+            <div>
+        <Box
+        alignContent="center"
+        display="flex"
+        flexWrap="wrap"
+        p={1}
+        m={2}
+        // bgcolor="background.paper"
+        css={{ maxWidth: 900 }}
+      >
     
             <h3>Student Leadership</h3>
             <h4>AKA, where I devote my heart and soul to when I'm offline.  </h4>
@@ -167,7 +177,10 @@ export default function Resume () {
                         </span>
                 </Card>
             </Container>
+            </Box>
+        </div>
         </Container>
+
     );
 }
 

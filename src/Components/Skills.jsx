@@ -60,7 +60,6 @@ export default function Skills(){
                             <Rating value={2} readOnly></Rating>
                         </Paper>
                     </Grid>
-   
                 
                 </Grid>
             </div>
