@@ -23,7 +23,7 @@ export default function AboutMe () {
               <Card className="card">
               <h3>who am i?</h3>
               <div>
-                Taylor • Purdue • Columbia MD, USA<br/>
+                Taylor • Purdue University • Columbia MD, USA<br/>
                 <br/>
                 This is my website, where I aim to show off the creative and technical side of myself, and provide depth and agency to a variety of my projects. 
                 <br/> <br/>
