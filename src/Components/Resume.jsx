@@ -1,5 +1,5 @@
 import React from'react';
-import { Box, FlexBox, Grid, Divider, Card, CardActions, CardMedia, Image, Typography, CardContent, Container, Link } from '@material-ui/core';
+import { Box, FlexBox, Grid, Paper, Divider, Card, CardActions, CardMedia, Image, Typography, CardContent, Container, Link } from '@material-ui/core';
 import Purdue from './static/Purdue.png';
 import AmEx from './static/amextransparent.png';
 import styling from './styling/resume.css';
@@ -23,7 +23,7 @@ export default function Resume () {
                     GPA: 3.83/4.00 <br/>
                     <img src={Purdue} width="50"></img>
             </Card>
-
+        
             <SkillsFlex/>
             <h3>Work Experience</h3>
 
@@ -120,7 +120,7 @@ export default function Resume () {
             </Timeline>
 
 
-            <div>
+            {/* <div> */}
         <Box
         alignContent="center"
         display="flex"
@@ -132,55 +132,59 @@ export default function Resume () {
       >
     
             <h3>Student Leadership</h3>
-            <h4>AKA, where I devote my heart and soul to when I'm offline.  </h4>
-            <Container class="container">
-                        <Card className="cardpadding">
-                            <span>
-                                <br/>
-                                Vice President, Women in Technology	<br/>
-                                Purdue University<br/>
-                                November 2018 - Present<br/>
-                                <p className="bulletpoints">
-                                - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice to increase female retention in the Polytechnic Institute
-                                <br/>
-                                - Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events <br/>
-                                <Link>http://purduewit.weebly.com/executive-board.html</Link>
-                                <br/>
-                                </p>
-                                </span>
-                        </Card>
-                <h3> </h3>
-                <Card className="cardpadding">
-                    <span>
-                        <br/>
-                        Cybersecurity Representative<br/>
-                        Purdue University<br/>
-                        June 2019 - Present<br/>
-                        <p className="bulletpoints">
-                        - Representative of the Cybersecurity students in Purdue’s Computer Information Technology department, promoting student body engagement, professional and academic development, and retention
-                        test
-                        <br/>
-                        </p>
-                        <img src={Purdue} width="50"></img>
-                        </span>
-                </Card>
-                <Card className="cardpadding">
-                    <span>
-                        <br/>
-                        Student Ambassador<br/>
-                        Purdue Polytechnic Institute <br/>
-                        February 2018 - Present<br/>
-                        <p className="bulletpoints">
-                        - Representative of the Purdue Polytechnic Institute to prospective students regarding enrollment and retention initiatives, while promoting organizational engagement within current student body
-                        <br/>
-                        </p>
-                        </span>
-                </Card>
-            </Container>
-            </Box>
-        </div>
-        </Container>
+            {/* <h4>AKA, where I devote my heart and soul to when I'm offline.  </h4> */}
 
+        <Box p={1} width="flex">
+            <Paper>
+                <span>
+                    <br/>
+                    Vice President, Women in Technology	<br/>
+                    Purdue University<br/>
+                    November 2018 - November 2019<br/>
+                    <p className="bulletpoints">
+                    - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice to increase female retention in the Polytechnic Institute
+                    <br/>
+                    - Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events <br/>
+                    <Link>http://purduewit.weebly.com/executive-board.html</Link>
+                    <br/>
+                    <br/>
+                    </p>
+                </span>
+            </Paper>
+        </Box>
+        <Box p={1} width="flex">
+            <Paper>
+                <span>
+                    <br/>
+                    Cybersecurity Representative<br/>
+                    Purdue University<br/>
+                    June 2019 - Present<br/>
+                    <p className="bulletpoints">
+                    - Representative of the Cybersecurity students in Purdue’s Computer Information Technology department, promoting student body engagement, professional and academic development, and retention
+                    test
+                    <br/>
+                    </p>
+                    <img src={Purdue} width="50"></img>
+                </span>
+            </Paper>
+        </Box>
+        <Box p={1} width="flex">
+            <Paper>
+                <span>
+                    <br/>
+                    Student Ambassador<br/>
+                    Purdue Polytechnic Institute <br/>
+                    February 2018 - Present<br/>
+                    <p className="bulletpoints">
+                    - Representative of the Purdue Polytechnic Institute to prospective students regarding enrollment and retention initiatives, while promoting organizational engagement within current student body
+                    <br/>
+                    <br/>
+                    </p>
+                    </span>
+            </Paper>
+        </Box>
+        </Box>
+        </Container>
     );
 }
 

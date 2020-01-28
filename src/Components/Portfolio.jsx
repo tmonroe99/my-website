@@ -38,7 +38,33 @@ export default function Portfolio() {
     const bull = <span className={classes.bullet}>•</span>;
 
     return (
+      <Box
+      alignContent="center"
+      display="flex"
+      flexWrap="wrap"
+      p={1}
+      m={2}
+      // bgcolor="background.paper"
+      css={{ maxWidth: "auto" }}
+    > 
     <div>
+      <Box p={1}>
+        {/* <Card> */}
+              <Paper>
+            <ReactPlayer url='https://vimeo.com/228564766' paused />
+            </Paper>
+          {/* </Card> */}
+      </Box>
+      <Box p={1}> 
+        <Card className="cardtest">
+            OPSPARC Contest promotion encouraging students to enter the contest and make their own innovative spinoffs.<br/>
+            Program: Adobe After Effects <br/>
+            Summer 2017 <br/>
+
+          </Card>
+      </Box>
+
+
         <section class="grid-1">
         <div class="item-1">
           <Card>
@@ -124,6 +150,6 @@ export default function Portfolio() {
       <h3>For more, visit my Vimeo: <Link>https://vimeo.com/tayloryounkins</Link> </h3>
       </div>
       
-
+      </Box>
     );
   }

@@ -35,10 +35,10 @@
 }
 
 .header {
-  height: 50px !important;
+  height: auto;
   width: 50px !important;
   /* max-width:50% !important; */
-  padding: 50px;
+  padding: 20px;
   color: white;
 }
 
