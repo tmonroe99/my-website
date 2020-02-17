@@ -5,13 +5,18 @@
     padding: 10px;
 }
 
+.containerTest {
+  width: 1300px;
+}
+
 .color {
   background-color: white;
+  margin-right: 90%;
 }
 
 .bulletpoints {
-    text-align: left !important;
-    padding: 00px 00px 00px 30px;
+    text-align: left;
+    padding: 20px;
 }
 
 .row {
@@ -28,10 +33,11 @@
     flex: 1;
 }
   .container {
-    display: flex; /* or inline-flex */
+    display: flex; /*or inline-flex */
     padding: 30 !important;
     margin: 30 !important;
     list-style: none;
+    min-width: 100%;
     
     display: -webkit-box;
     display: -moz-box;

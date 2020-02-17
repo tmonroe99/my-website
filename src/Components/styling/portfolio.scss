@@ -3,20 +3,30 @@
     grid-template-columns: 640px 380px; //changes width of each column Ironically. 
     grid-template-rows: 380px 380px; //changes height of each column
     align-content: center;
-    max-width: 1000px;
+    max-width: auto;
     margin: auto;
     padding: 20px;
   }
 
+.center {
+    justify-content: center;
+    align-content: center;
+}
+
+.containerTest {
+    width: 1300px;
+  }
+  
 .item-1 {
-    margin-top: 20px;
+    // margin-top: 20px;
 }
 .item-2 {
     // background-color: purple;
 }
 
-.cardtest{
-    width: 300px;
+.cardWELP{
+    width: auto;
+    flex: auto;
     height: 250px;
     margin: 20px;
     padding: 10px;
@@ -27,3 +37,17 @@
 .link {
     color: blue;
 }
+.container {
+    display: flex; /*or inline-flex */
+    padding: 30 !important;
+    margin: 30 !important;
+    list-style: none;
+    min-width: 100%;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    
+    justify-content: space-around;
+  }

@@ -1,13 +1,23 @@
 import React from 'react';  
-import { Typography, Card } from '@material-ui/core';
+import { Typography, Card, Paper, Box } from '@material-ui/core';
 import styling from './styling/commissions.scss';
 
 
 export default function Commissions(){
 
     return (
-        <div>
-            <Card className="card">
+        <Box
+        alignContent="center"
+        display="flex"
+        flexWrap="wrap"
+        p={1}
+        m="auto"
+        // bgcolor="background.paper"
+        // css={{ maxWidth: "auto" }}
+      >
+          <div alignContent="center" margin="auto" alignItems="center">
+                <Box p={1} >
+            <Paper className="center">
             <h3>Commissions</h3>
                 <p className="text">
                 Contact me directly for details.<br/><br/>
@@ -23,7 +33,9 @@ export default function Commissions(){
                     ❖ High production<br/>
                     ❖ Long timeline<br/>
                 </p>
-            </Card>
-        </div>
+            </Paper>
+            </Box>
+            </div>
+        </Box>
     );
 }

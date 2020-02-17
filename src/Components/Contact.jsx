@@ -16,7 +16,8 @@ export default function Contact(){
 
                 Email: tayloryounkins@gmail.com <br/>
                 {/* Cell: Email me<br/> */}
-                <Link href="https://www.linkedin.com/in/taylor-y-bbb281b9/">LinkedIn</Link>
+                <Link href="https://www.linkedin.com/in/taylor-y-bbb281b9/">LinkedIn</Link><br/>
+                <Link href="https://github.com/tyounkins">GitHub</Link>
 
             </Card>
         </div>

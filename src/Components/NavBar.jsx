@@ -95,7 +95,7 @@ export default function CustomizedTabs() {
           <StyledTab label="About Me" />
           <StyledTab label="Resume" />
           <StyledTab label="Portfolio" />
-          <StyledTab label="Commissions" />
+          {/* <StyledTab label="Commissions" /> */}
           <StyledTab label="Contact" />
         </StyledTabs>
         <Typography className={classes.padding} />
@@ -108,10 +108,10 @@ export default function CustomizedTabs() {
       <TabPanel value={value} index={2}>
         <Portfolio/> 
       </TabPanel>
-      <TabPanel value={value} index={3}>
+      {/* <TabPanel value={value} index={3}>
         <Commissions/> 
-      </TabPanel>
-      <TabPanel value={value} index={4}>
+      </TabPanel> */}
+      <TabPanel value={value} index={3}>
       <Contact/> 
       </TabPanel>
       </div>

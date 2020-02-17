@@ -12,7 +12,7 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 export default function Resume () {
     return (
 
-        <Container>
+        <Container className="containerTest">
             <h3>Education</h3>
             <Card>
             <br/>
@@ -119,7 +119,8 @@ export default function Resume () {
 
             </Timeline>
 
-
+            <h3>Student Leadership</h3>
+            {/* <h4>AKA, where I devote my heart and soul to when I'm offline.  </h4> */}
             {/* <div> */}
         <Box
         alignContent="center"
@@ -128,24 +129,23 @@ export default function Resume () {
         p={1}
         m={2}
         // bgcolor="background.paper"
-        css={{ maxWidth: 900 }}
+        // css={{ maxWidth: "auto" }}
       >
-    
-            <h3>Student Leadership</h3>
-            {/* <h4>AKA, where I devote my heart and soul to when I'm offline.  </h4> */}
-
+          <div alignContent="center" margin="auto" alignItems="center">
         <Box p={1} width="flex">
-            <Paper>
+            <Paper className="center">
                 <span>
                     <br/>
                     Vice President, Women in Technology	<br/>
                     Purdue University<br/>
                     November 2018 - November 2019<br/>
                     <p className="bulletpoints">
-                    - Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice to increase female retention in the Polytechnic Institute
+                    Leader of WiTty Sisters, a mentorship program matching underclassmen and upperclassmen by major for academic, professional, and other guiding advice to increase female retention in the Polytechnic Institute
                     <br/>
-                    - Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events <br/>
-                    <Link>http://purduewit.weebly.com/executive-board.html</Link>
+                    Lead and organize Women in Technology events to promote retention, recruitment, and gender diversity in the Polytechnic Institute, including professional development, social networking, and volunteer events <br/>
+                    {/* <Link>http://purduewit.weebly.com/executive-board.html</Link> */}
+                    <a href="http://purduewit.weebly.com/executive-board.html">WIT Website</a>
+                    
                     <br/>
                     <br/>
                     </p>
@@ -153,18 +153,19 @@ export default function Resume () {
             </Paper>
         </Box>
         <Box p={1} width="flex">
-            <Paper>
+            <Paper >
                 <span>
                     <br/>
                     Cybersecurity Representative<br/>
                     Purdue University<br/>
                     June 2019 - Present<br/>
                     <p className="bulletpoints">
-                    - Representative of the Cybersecurity students in Purdue’s Computer Information Technology department, promoting student body engagement, professional and academic development, and retention
+                    Representative of the Cybersecurity students in Purdue’s Computer Information Technology department, promoting student body engagement, professional and academic development, and retention
                     test
-                    <br/>
+                    {/* <br/> */}
                     </p>
-                    <img src={Purdue} width="50"></img>
+                    {/* <img src={Purdue} width="50" padding="30"></img> */}
+                   
                 </span>
             </Paper>
         </Box>
@@ -176,13 +177,14 @@ export default function Resume () {
                     Purdue Polytechnic Institute <br/>
                     February 2018 - Present<br/>
                     <p className="bulletpoints">
-                    - Representative of the Purdue Polytechnic Institute to prospective students regarding enrollment and retention initiatives, while promoting organizational engagement within current student body
+                    Representative of the Purdue Polytechnic Institute to prospective students regarding enrollment and retention initiatives, while promoting organizational engagement within current student body
                     <br/>
                     <br/>
                     </p>
                     </span>
             </Paper>
         </Box>
+        </div>
         </Box>
         </Container>
     );
