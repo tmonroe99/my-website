@@ -6,39 +6,10 @@ import ReactPlayer from 'react-player'
 import { Component } from 'react';
 import styles from './styling/portfolio.scss';
 
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    // padding: theme.spacing(2),  
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
-  card: {
-    // minWidth: 275,
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-}))
-
-
 export default function Portfolio() {
-  const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <div padding="10px">
+    <Container>
       <Box
         alignContent="center"
         display="flex"
@@ -60,7 +31,7 @@ export default function Portfolio() {
           </Box>
         {/* </div> */}
         <Box>
-          <Card className="cardtest">
+          <Card className="cardblah" width="auto">
             Motion graphics music video for Lollia's cover of the Persona 5 opening. (Commission)<br />
             Program: Adobe After Effects  <br />
             June 2018
@@ -78,7 +49,7 @@ export default function Portfolio() {
           </Box>
         {/* </div> */}
         <Box>
-          <Card className="cardtest">
+          <Card className="cardblah" width="auto">
             OPSPARC Contest promotion encouraging students to enter the contest and make their own innovative spinoffs.<br />
             Program: Adobe After Effects <br />
             Summer 2017 <br />
@@ -123,7 +94,7 @@ export default function Portfolio() {
       </Box>
       {/* </section> */}
       <h3>For more, visit my Vimeo: <Link>https://vimeo.com/tayloryounkins</Link> </h3>
-    </div>
+    </Container>
 
 
   );
