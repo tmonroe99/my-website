@@ -9,7 +9,7 @@ import styles from './styling/portfolio.scss';
 export default function Portfolio() {
 
   return (
-    <Container>
+    <Container >
       <Box
         alignContent="center"
         display="flex"
@@ -17,11 +17,11 @@ export default function Portfolio() {
         padding="10px"
         margin="auto"
         // margin="10px"
-        maxWidth="940px"
+        maxWidth="900px"
         // css={{ maxWidth: "auto" }}
       >
         {/* <div className='player-wrapper'> */}
-          <Box flex="auto" maxWidth="1280px" width="auto" padding="10px">
+          <Box flex="auto" className="padtest" >
             <ReactPlayer
               className='react-player'
               url='https://www.youtube.com/watch?v=7LPQe26Knxs'
@@ -31,14 +31,14 @@ export default function Portfolio() {
           </Box>
         {/* </div> */}
         <Box>
-          <Card className="cardblah" width="auto">
+          <Card className="cardblah">
             Motion graphics music video for Lollia's cover of the Persona 5 opening. (Commission)<br />
             Program: Adobe After Effects  <br />
             June 2018
             </Card>
         </Box>
         {/* <div className='player-wrapper'> */}
-          <Box width="auto" flex="auto" maxWidth="1280px" padding="10px">
+          <Box flex="auto" className="padtest">
             <ReactPlayer
               className='react-player'
               url='https://vimeo.com/228564766'
@@ -49,14 +49,14 @@ export default function Portfolio() {
           </Box>
         {/* </div> */}
         <Box>
-          <Card className="cardblah" width="auto">
+          <Card className="cardblah">
             OPSPARC Contest promotion encouraging students to enter the contest and make their own innovative spinoffs.<br />
             Program: Adobe After Effects <br />
             Summer 2017 <br />
 
           </Card>
         </Box>
-        <Box flex="auto" maxWidth="1280px" padding="10px">
+        <Box flex="auto" className="padtest">
           <div className='player-wrapper'>
             <Card>
                 <ReactPlayer
@@ -68,14 +68,14 @@ export default function Portfolio() {
           </div>
         </Box>
         <Box>
-          <Card className="cardtest">
+          <Card className="cardblah">
             TECHFIT is a program funded by a National Science Foundation grant. This was included in my tasks as a Student Assistant.<br />
             Program: Adobe After Effects
             January - May 2018 <br />
           </Card>
         </Box>
 
-        <Box flex="auto" maxWidth="1280px" padding="10px">
+        <Box flex="auto" className="padtest">
         <div className='player-wrapper'>
           <ReactPlayer url='https://www.youtube.com/watch?v=QaHe2EaeCdc' paused
             width="100%"
@@ -84,7 +84,7 @@ export default function Portfolio() {
           </div>
         </Box>
         <Box>
-          <Card className="cardtest">
+          <Card className="cardblah">
             Fun album highlights of Lollia's Vocaloid cover album. (Commission) <br />
             Program: Adobe After Effects <br />
             March 2019 <br />

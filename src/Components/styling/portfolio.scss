@@ -24,29 +24,58 @@
     // background-color: purple;
 }
 
-.cardblah{
-    // width: flex; 
-    width: auto;
-    flex: auto;
-    color: red;
-    // height: 250px;
-    margin: auto;
-    padding: 10px;
-    max-width: 300px;
-    // margin: 10px;
-
-    // transform: translate(-50%, -50%) 
+.padtest{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.cardWELP{
-    width: auto;
-    flex: auto;
-    height: 250px;
-    margin: 20px;
-    padding: 10px;
+@media screen and (min-width: 500px) {
 
-    // transform: translate(-50%, -50%) 
-}
+    .cardblah{
+        // width: flex; 
+        width: 300px;
+        flex: auto;
+        color: red;
+        // height: 250px;
+        margin: auto;
+        padding: 10px;
+        // max-width: 300px;
+        margin: 10px;
+    
+        // transform: translate(-50%, -50%) 
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+
+    .cardblah{
+        // width: flex; 
+        width: auto;
+        flex: auto;
+        color: red;
+        // height: 250px;
+        // margin: auto;
+        padding: 10px;
+        // max-width: 300px;
+        // margin: 10px;
+    
+        // transform: translate(-50%, -50%) 
+    }
+  }
+
+// .cardblah{
+//     // width: flex; 
+//     width: auto;
+//     flex: auto;
+//     color: red;
+//     // height: 250px;
+//     // margin: auto;
+//     padding: 10px;
+//     max-width: 300px;
+//     // margin: 10px;
+
+//     // transform: translate(-50%, -50%) 
+// }
 
 .link {
     color: blue;
